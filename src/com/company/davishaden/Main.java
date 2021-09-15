@@ -12,7 +12,7 @@ import javax.swing.*;
 public class Main {
 
     public static void main(String[] args) {
-	    JFrame frame = new JFrame("Snowman");
+	    JFrame frame = new JFrame("Custom Drawing");
 	    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    frame.getContentPane().add(new CustomPanel());
 	    frame.pack();
